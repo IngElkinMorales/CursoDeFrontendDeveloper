@@ -49,40 +49,84 @@ main .ejercicio1 p:nth-of-type(2) {
     color: #D5F5E3;
 }
 main .ejercicio1 .BanderaColombia{
-    margin-top: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #212F3C;
+    width: 80vw;
+    height: 20vh;
+    margin: 10px auto;
+    border-radius: 0 40px;
 }
 main .ejercicio1 .amarillo {
     position: relative;
     background-color: yellow;
-    width: 30vw;
-    height: 8vh;
+    width: 80vw;
+    height: 15vh;
     text-align: center;
     border-radius: 30px;
     z-index: 1;
     top: 10px;
+    left: 20px;
 }
 main .ejercicio1 .rojo {
     position: relative;
     background-color: red;
-    width: 30vw;
-    height: 4vh;
+    width: 70vw;
+    height: 10vh;
     text-align: center;
     border-radius: 30px;
     z-index: 2;
-    top: 20px;
+    top: 25px;
     left: -40px;
 }
 main .ejercicio1 .azul  {
     position: relative;
     background-color: blue;
-    width: 30vw;
-    height: 4vh;
+    width: 70vw;
+    height: 10vh;
     text-align: center;
     border-radius: 30px;
     z-index: 3;
     top: 30px;
     left: -80px;
+}
+main .FondoTarjetaDePresentacion {
+    background-color: #212F3C;
+    width: 250px;
+    height: 300px;
+    margin: 15px auto;
+    border-radius: 0px 20px 0px 20px;
+    overflow: hidden;
+}
+main .FondoTarjetaDePresentacion img {
+    width: 80px;
+    height: auto;
+    background-color: #17202A;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 2px 2px 6px lime;
+    left: 155px;
+    top: 10px;
+}
+main .FondoTarjetaDePresentacion h1 {
+    color: #D6DBDF;
+    font-weight: 300;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    font-size: 1.4rem;
+}
+main .FondoTarjetaDePresentacion p{
+    color: rgb(243, 195, 176);
+    position: relative;
+    top: -90px;
+    left: 10px;
+    margin-bottom: 2px;
+    font-weight: 100;
+}
+main .FondoTarjetaDePresentacion a {
+    color: #D6DBDF;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top: -70px;
 }
