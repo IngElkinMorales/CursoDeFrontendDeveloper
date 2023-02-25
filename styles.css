@@ -47,6 +47,7 @@ main .ejercicio1 p:nth-of-type(1){
 }
 main .ejercicio1 p:nth-of-type(2) {
     color: #D5F5E3;
+    margin-left: 10px;
 }
 main .ejercicio1 .BanderaColombia{
     display: flex;
@@ -89,6 +90,17 @@ main .ejercicio1 .azul  {
     top: 30px;
     left: -80px;
 }
+main .ejercicio2 p:nth-of-type(1) {
+    color: #D5F5E3;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 4px;
+}
+main .ejercicio2 p:nth-of-type(2) {
+    color: #D5F5E3;
+    margin-left: 10px;
+}
 main .FondoTarjetaDePresentacion {
     background-color: #212F3C;
     width: 250px;
@@ -115,7 +127,24 @@ main .FondoTarjetaDePresentacion h1 {
     left: 10px;
     font-size: 1.4rem;
 }
-main .FondoTarjetaDePresentacion p{
+main .FondoTarjetaDePresentacion p:nth-of-type(1){
+    color: rgb(243, 195, 176);
+    position: relative;
+    top: -90px;
+    left: -75px;
+    margin-bottom: 2px;
+    font-weight: 100;
+    text-decoration: none;
+}
+main .FondoTarjetaDePresentacion p:nth-of-type(2){
+    color: rgb(243, 195, 176);
+    position: relative;
+    top: -90px;
+    left: 0px;
+    margin-bottom: 2px;
+    font-weight: 100;
+}
+main .FondoTarjetaDePresentacion p:nth-of-type(3){
     color: rgb(243, 195, 176);
     position: relative;
     top: -90px;
