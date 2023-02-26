@@ -102,12 +102,19 @@ main .ejercicio2 p:nth-of-type(2) {
     margin-left: 10px;
 }
 main .FondoTarjetaDePresentacion {
-    background-color: #212F3C;
+    background-color: black;
     width: 250px;
-    height: 300px;
+    height: 160px;
     margin: 15px auto;
     border-radius: 0px 20px 0px 20px;
     overflow: hidden;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 main .FondoTarjetaDePresentacion img {
     width: 80px;
@@ -158,4 +165,19 @@ main .FondoTarjetaDePresentacion a {
     position: relative;
     left: 10px;
     top: -70px;
+}
+main .FondoTarjetaDePresentacion p:nth-of-type(4){
+    color: antiquewhite;
+    position: relative;
+    top: -65px;
+    left: 10px;
+}
+main .FondoTarjetaDePresentacion ul {
+    color: lime;
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
+main .FondoTarjetaDePresentacion ul li {
+    margin-bottom: 2px;
 }
